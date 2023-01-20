@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Facade" />
+        <module name="Prototype" />
+        <module name="Visitor" />
+        <module name="Null_Object" />
+        <module name="Builder" />
+        <module name="Multiton" />
+        <module name="Factory" />
+        <module name="Adapter" />
+        <module name="FlyWeigh" />
+        <module name="Factory_Method" />
+        <module name="Memento" />
+        <module name="Proxy" />
+        <module name="Chain_of_responsibility" />
+        <module name="Observer" />
+        <module name="Iterator" />
+        <module name="Interpreter" />
+        <module name="Composite" />
+        <module name="Object_Pool" />
+        <module name="Lazy_Initialization" />
+        <module name="Specification" />
+        <module name="Decorator" />
+        <module name="Command" />
+        <module name="Filter" />
+        <module name="State" />
+        <module name="Singleton" />
+        <module name="Template_method" />
+        <module name="Strategy" />
+        <module name="Mediator" />
+        <module name="Bridge" />
+        <module name="Factory_Abstract" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Adapter" target="8" />
+      <module name="Behavioral" target="8" />
+      <module name="Bridge" target="8" />
+      <module name="Builder" target="8" />
+      <module name="Chain_of_responsibility" target="8" />
+      <module name="Command" target="8" />
+      <module name="Composite" target="8" />
+      <module name="Decorator" target="8" />
+      <module name="Facade" target="8" />
+      <module name="Factory" target="8" />
+      <module name="Factory_Abstract" target="8" />
+      <module name="Factory_Method" target="8" />
+      <module name="Filter" target="8" />
+      <module name="FlyWeigh" target="8" />
+      <module name="Generative" target="8" />
+      <module name="Interpreter" target="8" />
+      <module name="Iterator" target="8" />
+      <module name="Lazy_Initialization" target="8" />
+      <module name="Mediator" target="8" />
+      <module name="Memento" target="8" />
+      <module name="Multiton" target="8" />
+      <module name="N" target="8" />
+      <module name="Null_Object" target="11" />
+      <module name="Object_Pool" target="8" />
+      <module name="Observer" target="8" />
+      <module name="Patterns" target="8" />
+      <module name="Prototype" target="8" />
+      <module name="Proxy" target="8" />
+      <module name="Singleton" target="8" />
+      <module name="Specification" target="8" />
+      <module name="State" target="8" />
+      <module name="Strategy" target="8" />
+      <module name="Structural" target="8" />
+      <module name="Template_method" target="8" />
+      <module name="Visitor" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

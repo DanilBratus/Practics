@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18dce266-d6a3-4566-82cc-30c05fdc94aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Chain_of_responsibility/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Chain_of_responsibility/src/main/java/ChOR/ChainOfResponsibilityExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Chain_of_responsibility/src/main/java/ChOR/EmailLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Chain_of_responsibility/src/main/java/ChOR/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Chain_of_responsibility/src/main/java/ChOR/StderrLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Chain_of_responsibility/src/main/java/ChOR/StdoutLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Chain_of_responsibility/src/main/java/chain_of_responsibility/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Chain_of_responsibility/src/main/java/chain_of_responsibility/PayPalPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Chain_of_responsibility/src/main/java/chain_of_responsibility/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Chain_of_responsibility/src/main/java/chain_of_responsibility/VisaPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Command/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Command/src/main/java/command/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Command/src/main/java/command/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Command/src/main/java/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Command/src/main/java/command/Invoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Command/src/main/java/command/StartCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Command/src/main/java/command/StopCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Filter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Filter/src/main/java/org/example/filter/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Filter/src/main/java/org/example/filter/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Filter/src/main/java/org/example/filter/model/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Filter/src/main/java/org/example/filter/myFilter/DoorFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Filter/src/main/java/org/example/filter/myFilter/OrFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Filter/src/main/java/org/example/filter/myFilter/SpeedFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Filter/src/main/java/org/example/filter/myFilter/TwoFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Interpreter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Interpreter/src/main/java/interpreter/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Interpreter/src/main/java/interpreter/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Interpreter/src/main/java/interpreter/Interpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Interpreter/src/main/java/interpreter/LowerCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Interpreter/src/main/java/interpreter/UpperCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Iterator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Iterator/src/main/java/iterator/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Iterator/src/main/java/iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Iterator/src/main/java/iterator/MyArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Mediator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Mediator/src/main/java/mediator/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Mediator/src/main/java/mediator/Colleague.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Mediator/src/main/java/mediator/ConcreteColleague1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Mediator/src/main/java/mediator/ConcreteColleague2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Mediator/src/main/java/mediator/ConcreteMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Mediator/src/main/java/mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Memento/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Memento/src/main/java/memento/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Memento/src/main/java/memento/Caretaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Memento/src/main/java/memento/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Memento/src/main/java/memento/Originator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Null Object/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Null Object/src/main/java/null_object/AbstractEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Null Object/src/main/java/null_object/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Null Object/src/main/java/null_object/NullEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Null Object/src/main/java/null_object/RealEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Observer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Observer/src/main/java/observer/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Observer/src/main/java/observer/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Observer/src/main/java/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Observer/src/main/java/observer/University.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Specification/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Specification/src/main/java/specification/AndSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Specification/src/main/java/specification/CompositeSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Specification/src/main/java/specification/NotSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Specification/src/main/java/specification/OrSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Specification/src/main/java/specification/Specification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/State/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/State/src/main/java/state/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/State/src/main/java/state/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/State/src/main/java/state/DLS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/State/src/main/java/state/DWS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/State/src/main/java/state/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Strategy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Strategy/src/main/java/strategy/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Strategy/src/main/java/strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Strategy/src/main/java/strategy/DLS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Strategy/src/main/java/strategy/DWS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Strategy/src/main/java/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Template_method/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Template_method/src/main/java/template_method/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Template_method/src/main/java/template_method/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Template_method/src/main/java/template_method/OneCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Template_method/src/main/java/template_method/TwoCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Visitor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Visitor/src/main/java/visitor/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Visitor/src/main/java/visitor/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Visitor/src/main/java/visitor/CarVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Visitor/src/main/java/visitor/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Visitor/src/main/java/visitor/SportCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Visitor/src/main/java/visitor/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Visitor/src/main/java/visitor/Whell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Builder/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Builder/src/main/java/org/example/builder/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Builder/src/main/java/org/example/builder/Build.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Builder/src/main/java/org/example/builder/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Builder/src/main/java/org/example/builder/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Builder/src/main/java/org/example/builder/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Builder/src/main/java/org/example/builder/OneBuilderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Builder/src/main/java/org/example/builder/OneEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Builder/src/main/java/org/example/builder/TwoBuilderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Builder/src/main/java/org/example/builder/TwoEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Factory/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Factory/src/main/java/org/example/factory/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Factory/src/main/java/org/example/factory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Factory/src/main/java/org/example/factory/service/Audi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Factory/src/main/java/org/example/factory/service/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Factory/src/main/java/org/example/factory/service/Toyota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Factory_Abstract/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Factory_Abstract/src/main/java/org/example/abstract_factory/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Factory_Abstract/src/main/java/org/example/abstract_factory/service/Audi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Factory_Abstract/src/main/java/org/example/abstract_factory/service/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Factory_Abstract/src/main/java/org/example/abstract_factory/service/Honda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Factory_Abstract/src/main/java/org/example/abstract_factory/service/Moto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Factory_Abstract/src/main/java/org/example/abstract_factory/service/Toyota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Factory_Abstract/src/main/java/org/example/abstract_factory/service/Yomaha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Factory_Abstract/src/main/java/org/example/abstract_factory/service/factory/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Factory_Abstract/src/main/java/org/example/abstract_factory/service/factory/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Factory_Abstract/src/main/java/org/example/abstract_factory/service/factory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Factory_Abstract/src/main/java/org/example/abstract_factory/service/factory/MotoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Factory_Method/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Factory_Method/src/main/java/org/example/factory_method/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Factory_Method/src/main/java/org/example/factory_method/Beer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Factory_Method/src/main/java/org/example/factory_method/BeerCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Factory_Method/src/main/java/org/example/factory_method/Creator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Factory_Method/src/main/java/org/example/factory_method/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Lazy_Initialization/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Lazy_Initialization/src/main/java/LazyInitialization/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Lazy_Initialization/src/main/java/LazyInitialization/LazyInitialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Lazy_Initialization/src/main/java/LazyInitialization/Widget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Multiton/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Multiton/src/main/java/multiton/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Multiton/src/main/java/multiton/Multiton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Multiton/src/main/java/multiton/MultitonType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Object_Pool/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Object_Pool/src/main/java/org/example/object_pool/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Object_Pool/src/main/java/org/example/object_pool/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Object_Pool/src/main/java/org/example/object_pool/ObjectPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Prototype/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Prototype/src/main/java/org/example/prototype/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Prototype/src/main/java/org/example/prototype/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Singleton/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Singleton/src/main/java/org/example/lazy_singleton/ApplicationSingletonLazyInitialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/Singleton/src/main/java/org/example/singleton/ApplicationSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generative/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Adapter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Adapter/src/main/java/org/example/adapter/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Adapter/src/main/java/org/example/adapter/model/Radio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Adapter/src/main/java/org/example/adapter/service/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Adapter/src/main/java/org/example/adapter/service/AmericanSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Adapter/src/main/java/org/example/adapter/service/EuroSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Adapter/src/main/java/org/example/adapter/service/SimpleAmericanSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Bridge/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Bridge/src/main/java/org/example/bridge/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Bridge/src/main/java/org/example/bridge/notebook/ColorNotebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Bridge/src/main/java/org/example/bridge/notebook/color/Black.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Bridge/src/main/java/org/example/bridge/notebook/color/Grey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Bridge/src/main/java/org/example/bridge/notebook/model/Acer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Bridge/src/main/java/org/example/bridge/notebook/model/HP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Bridge/src/main/java/org/example/bridge/notebook/model/Notebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Composite/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Composite/src/main/java/org/example/composite/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Composite/src/main/java/org/example/composite/model/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Composite/src/main/java/org/example/composite/model/Folder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Decorator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Decorator/src/main/java/org/example/decorator/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Decorator/src/main/java/org/example/decorator/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Decorator/src/main/java/org/example/decorator/Read.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Decorator/src/main/java/org/example/decorator/ReadBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Decorator/src/main/java/org/example/decorator/ReadBookWithAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Facade/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Facade/src/main/java/org/example/facade/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Facade/src/main/java/org/example/facade/service/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Facade/src/main/java/org/example/facade/service/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Facade/src/main/java/org/example/facade/service/Facade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Facade/src/main/java/org/example/facade/service/Key.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/FlyWeigh/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/FlyWeigh/src/main/java/org/example/fly_weigh/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/FlyWeigh/src/main/java/org/example/fly_weigh/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/FlyWeigh/src/main/java/org/example/fly_weigh/CarClassA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/FlyWeigh/src/main/java/org/example/fly_weigh/CarClassB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/FlyWeigh/src/main/java/org/example/fly_weigh/CarClassC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/FlyWeigh/src/main/java/org/example/fly_weigh/FlyWeigh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Proxy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Proxy/src/main/java/proxy/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Proxy/src/main/java/proxy/service/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Proxy/src/main/java/proxy/service/ProxyImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Proxy/src/main/java/proxy/service/RealImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BB0fxfC9fUuzE22kftFr6fz53e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.1661055" />
+    <property name="project.structure.side.proportion" value="0.368" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="LazyInitialization" />
+      <recent name="visitor" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="W:\IDEA Project\Patterns\Dependenсy_injection\Dependency_injection_with_annotation\src\main\java\dep_with_annotation_inject" />
+      <recent name="W:\IDEA Project\Patterns\Dependenсy_injection\Dependency_injection_with_pom\src\main\java\dep_with_pom" />
+      <recent name="W:\IDEA Project\Patterns\Dependency_injection\src\main\java\Dependency" />
+      <recent name="W:\IDEA Project\Patterns\Behavioral\State\src\main\java\state" />
+      <recent name="W:\IDEA Project\Patterns\Generative" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="W:\IDEA Project\Patterns\Dependenсy_injection\with_XML\src\main\resources" />
+      <recent name="W:\IDEA Project\Patterns\Behavioral" />
+      <recent name="W:\IDEA Project\Patterns\Generative" />
+      <recent name="W:\IDEA Project\Patterns\Structural" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dep_with_annotation_inject" />
+      <recent name="org.example.filter.myFilter" />
+      <recent name="org.example.abstract_factory.car" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ApplicationSingleton">
+    <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dep_with_xml.Application" />
+      <module name="with_XML" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dep_with_xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mediator.Application" />
+      <module name="Mediator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mediator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.singleton.ApplicationSingleton" />
+      <module name="Singleton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationSingletonLazyInitialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lazy_singleton.ApplicationSingletonLazyInitialization" />
+      <module name="Singleton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.lazy_singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="proxy.Application" />
+      <module name="Proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="proxy.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.singleton.Application" />
+      <module name="Singelton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dependency.MyApplication" />
+      <module name="Dependency_injection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dependency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApplicationSingleton" />
+        <item itemvalue="Application.ApplicationSingletonLazyInitialization" />
+        <item itemvalue="Application.Application (1)" />
+        <item itemvalue="Application.MyApplication" />
+        <item itemvalue="Application.Application (5)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18dce266-d6a3-4566-82cc-30c05fdc94aa" name="Changes" comment="" />
+      <created>1656364280639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656364280639</updated>
+      <workItem from="1656933913213" duration="1970000" />
+      <workItem from="1660650283542" duration="64000" />
+      <workItem from="1660650380433" duration="58000" />
+      <workItem from="1660650458787" duration="3786000" />
+      <workItem from="1660657346924" duration="239000" />
+      <workItem from="1660657593652" duration="2668000" />
+      <workItem from="1660660544588" duration="3837000" />
+      <workItem from="1660829190957" duration="8830000" />
+      <workItem from="1660907456494" duration="12904000" />
+      <workItem from="1661158251204" duration="11030000" />
+      <workItem from="1661253876132" duration="12788000" />
+      <workItem from="1661422969897" duration="14985000" />
+      <workItem from="1661522404964" duration="643000" />
+      <workItem from="1661605191173" duration="4854000" />
+      <workItem from="1661707637134" duration="309000" />
+      <workItem from="1661707979666" duration="7045000" />
+      <workItem from="1661771274032" duration="10201000" />
+      <workItem from="1661809044560" duration="1111000" />
+      <workItem from="1661856537514" duration="1204000" />
+      <workItem from="1662031463737" duration="6185000" />
+      <workItem from="1662118391197" duration="11152000" />
+      <workItem from="1662320485140" duration="8052000" />
+      <workItem from="1662381980075" duration="1013000" />
+      <workItem from="1662389913418" duration="3116000" />
+      <workItem from="1662462234623" duration="8507000" />
+      <workItem from="1662476813598" duration="234000" />
+      <workItem from="1662548388835" duration="605000" />
+      <workItem from="1662553890365" duration="1690000" />
+      <workItem from="1662576330010" duration="1211000" />
+      <workItem from="1662647518722" duration="1315000" />
+      <workItem from="1662724656472" duration="637000" />
+      <workItem from="1663254627933" duration="73000" />
+      <workItem from="1663586163275" duration="62000" />
+      <workItem from="1667662149679" duration="5281000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

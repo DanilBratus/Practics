@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>Patterns</artifactId>
+        <groupId>org.example</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>Behavioral</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>Chain_of_responsibility</module>
+        <module>Command</module>
+        <module>Iterator</module>
+        <module>Iterator</module>
+        <module>Mediator</module>
+        <module>Memento</module>
+        <module>Observer</module>
+        <module>State</module>
+        <module>Strategy</module>
+        <module>Template_method</module>
+        <module>Visitor</module>
+        <module>Null Object</module>
+        <module>Specification</module>
+        <module>Filter</module>
+        <module>Null_Object</module>
+    </modules>
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+</project>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Generative/Singelton/pom.xml" />
+        <option value="$PROJECT_DIR$/Generative/Builder/pom.xml" />
+        <option value="$PROJECT_DIR$/Generative/Factory/pom.xml" />
+        <option value="$PROJECT_DIR$/Generative/Factory_Abstract/pom.xml" />
+        <option value="$PROJECT_DIR$/Generative/Prototype/pom.xml" />
+        <option value="$PROJECT_DIR$/Generative/Singleton/pom.xml" />
+        <option value="$PROJECT_DIR$/Structural/Adapter/pom.xml" />
+        <option value="$PROJECT_DIR$/Structural/Bridge/pom.xml" />
+        <option value="$PROJECT_DIR$/Structural/Composite/pom.xml" />
+        <option value="$PROJECT_DIR$/Structural/Decorator/pom.xml" />
+        <option value="$PROJECT_DIR$/Structural/Facade/pom.xml" />
+        <option value="$PROJECT_DIR$/Structural/FlyWeigh/pom.xml" />
+        <option value="$PROJECT_DIR$/Generative/pom.xml" />
+        <option value="$PROJECT_DIR$/Behavioral/Observer/pom.xml" />
+        <option value="$PROJECT_DIR$/Behavioral/Stratigy/pom.xml" />
+        <option value="$PROJECT_DIR$/Behavioral/Strategy/pom.xml" />
+        <option value="$PROJECT_DIR$/Generative/Factory_Method/pom.xml" />
+        <option value="$PROJECT_DIR$/Generative/Object_Pool/pom.xml" />
+        <option value="$PROJECT_DIR$/Behavioral/Chain_of_responsibility/pom.xml" />
+        <option value="$PROJECT_DIR$/Behavioral/Command/pom.xml" />
+        <option value="$PROJECT_DIR$/Behavioral/Interpreter/pom.xml" />
+        <option value="$PROJECT_DIR$/Behavioral/Iterator/pom.xml" />
+        <option value="$PROJECT_DIR$/Behavioral/Mediator/pom.xml" />
+        <option value="$PROJECT_DIR$/Behavioral/Memento/pom.xml" />
+        <option value="$PROJECT_DIR$/Behavioral/State/pom.xml" />
+        <option value="$PROJECT_DIR$/Behavioral/Template_method/pom.xml" />
+        <option value="$PROJECT_DIR$/Behavioral/Visitor/pom.xml" />
+        <option value="$PROJECT_DIR$/Behavioral/Filter/pom.xml" />
+        <option value="$PROJECT_DIR$/Dependency_injection/pom.xml" />
+        <option value="$PROJECT_DIR$/Dependenсy_injection/Dependency_injection_with_pom/pom.xml" />
+        <option value="$PROJECT_DIR$/Dependenсy_injection/pom.xml" />
+        <option value="$PROJECT_DIR$/Dependenсy_injection/with_Annotation/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Template_Method/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>
