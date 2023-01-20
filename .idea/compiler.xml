@@ -10,6 +10,7 @@
         <module name="Prototype" />
         <module name="Visitor" />
         <module name="Null_Object" />
+        <module name="Bean_life_circle" />
         <module name="Builder" />
         <module name="Multiton" />
         <module name="Factory" />
@@ -40,6 +41,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Adapter" target="8" />
+      <module name="Bean_life_circle" target="11" />
       <module name="Behavioral" target="8" />
       <module name="Bridge" target="8" />
       <module name="Builder" target="8" />

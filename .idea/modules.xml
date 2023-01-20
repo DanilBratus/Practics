@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Patterns/Structural/Adapter/Adapter.iml" filepath="$PROJECT_DIR$/Patterns/Structural/Adapter/Adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bean_life_circle/Bean_life_circle.iml" filepath="$PROJECT_DIR$/Bean_life_circle/Bean_life_circle.iml" />
       <module fileurl="file://$PROJECT_DIR$/Patterns/Behavioral/Behavioral.iml" filepath="$PROJECT_DIR$/Patterns/Behavioral/Behavioral.iml" />
       <module fileurl="file://$PROJECT_DIR$/Patterns/Structural/Bridge/Bridge.iml" filepath="$PROJECT_DIR$/Patterns/Structural/Bridge/Bridge.iml" />
       <module fileurl="file://$PROJECT_DIR$/Patterns/Generative/Builder/Builder.iml" filepath="$PROJECT_DIR$/Patterns/Generative/Builder/Builder.iml" />
