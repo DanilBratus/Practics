@@ -49,6 +49,7 @@
       <module name="Command" target="8" />
       <module name="Composite" target="8" />
       <module name="Decorator" target="8" />
+      <module name="Dependency_injection" target="11" />
       <module name="Facade" target="8" />
       <module name="Factory" target="8" />
       <module name="Factory_Abstract" target="8" />

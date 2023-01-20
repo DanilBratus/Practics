@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/Patterns/pom.xml" />
         <option value="$PROJECT_DIR$/Patterns/Behavioral/Interpreter/pom.xml" />
         <option value="$PROJECT_DIR$/Bean_life_circle/pom.xml" />
+        <option value="$PROJECT_DIR$/Dependency_injection/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

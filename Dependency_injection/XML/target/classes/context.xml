@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="nameBD" factory-bean="pDao" factory-method="createNameBDInstance" />
+    <bean id="beanClazz" class="edu.spring.dao.Clazz"/>
+    <bean id="personDao" class="edu.spring.dao.PersonDao" abstract="true"/>
+    <bean id="pDao" class="edu.spring.dao.PersonDaoSimple" factory-method="createPersonDaoSimple" parent="personDao">
+        <constructor-arg index="0" type="java.lang.String" value="fieldCreateConfigXML"/>
+        <constructor-arg index="1" type="edu.spring.dao.Clazz" ref="beanClazz"/>
+        <lookup-method name="createNameBDInstance" bean="nameBD"/>
+        <replaced-method name="print" replacer="nameBD"/>
+    </bean>
+
+    <bean id="pService" class="edu.spring.service.PersonServiceImpl" destroy-method="destroy" init-method="init"
+          name="personService" lazy-init="false" scope="singleton" depends-on="nameBD">
+        <constructor-arg name="dao" type="edu.spring.dao.PersonDao" index="0" ref="pDao"/>
+        <constructor-arg name="number" index="1" value="1"/>
+        <property name="number" value="2"/>
+    </bean>
+</beans>

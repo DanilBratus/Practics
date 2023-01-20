@@ -1,0 +1,8 @@
+edu\spring\dao\PersonDao.class
+edu\spring\service\PersonServiceImpl.class
+edu\spring\dao\NameBD.class
+edu\spring\dao\PersonDaoSimple.class
+edu\spring\service\PersonService.class
+edu\spring\domain\Person.class
+edu\spring\dao\Clazz.class
+edu\spring\Main.class
